@@ -87,11 +87,25 @@
 
 .BUTTON_BOX{
     margin-left: 37px;
-    margin-top: 50px;
-    width: 225px;
+    margin-top: 375px;
+    width: 525px;
     height: 75px;
     border-radius: 25px;
     background-color: rgb(199, 241, 210);
+    float:left;
+}
+
+.BUTTON_BOX_HEADER{
+    color: rgb(70, 131, 85);
+    font-weight: 600;
+    float:left;
+    margin: 24px 0 0 60px;
+}
+
+#HEADER_SELECTED{
+    color: rgb(49, 99, 62);
+    font-weight: 800;
+    text-shadow: 0 0 10px 0 rgb(47, 94, 59);
 }
 
 #linkedin,#phone,#mail{
