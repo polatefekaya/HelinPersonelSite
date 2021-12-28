@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.BODY {
+    background-color: #A3E4DB;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.OUTER_BOX{
+    
+}
+
+
+.MAIN_BOX{ 
+    position:absolute;
+    width: 600px;
+    height: 1000px;
+    border-radius: 25px;
+    background-color: #FFF8F3;
+    
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    box-shadow: 0 0 20px 0px #7fc7bd ;
+}
+
+.HEADER_NAME{
+    
+    font-weight: 700;
+    margin: 85px 0 0 65px;
+    color: #262A3E;   
+}
+
+.HEADER_NAME{
+    float: left;
+}
+
+.PROFILE_PHOTO{
+    margin: 50px 0 0 65px;
+    border-radius: 30px;
+    width: 120px;
+    height: 160px;
+    float: left;
+}
+
+.PHARAGRAPH_CONTAINER{
+    margin-top:  275px;
+    margin-left: 37px;
+    width: 525px;
+    height: 235px;
+    border-radius: 25px;
+    background-color: rgb(209, 209, 224);
+}
+
+.PHARAGRAPH{
+    
+    font-weight: normal;
+
+    line-height: 25px;
+    text-align:justify;
+    
+    margin-left: 23px;
+    margin-right: 25px;
+    float:right;
+    color:#32374e;
+
+}
+
+.HEADER_INFO{
+    color: #585a6e;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-bottom:0;
+    margin-top: 5px;
+    float:left;
+    font-size: 13px;
+}
+
+.HEADER_INFO_SPAN{
+    color: #585a6e;
+    font-weight: 700;
+    float:left;
+    margin-left: 65px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.BUTTON_BOX{
+    margin-left: 37px;
+    margin-top: 50px;
+    width: 225px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: rgb(199, 241, 210);
+}
+
+#linkedin,#phone,#mail{
+margin: 22px 0 0 30px;
+color:rgb(59, 114, 73);
+}
