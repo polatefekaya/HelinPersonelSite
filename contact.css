@@ -1,0 +1,70 @@
+.BODY {
+    background-color: #dfd3c3;
+    font-family: 'Poppins', sans-serif;
+    /* old #A3E4DB */
+}
+
+.MAIN_BOX{ 
+    position:absolute;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 25px;
+    background-color: #F0ece3;
+    
+    top: 10%;
+    left: 50%;
+    margin-left: -600px;
+    box-shadow: 0 0 20px 0px #a59682 ;
+}
+
+.PROFILE_PHOTO{
+    margin: 50px 0 0 65px;
+    border-radius: 30px;
+    width: 120px;
+    height: 160px;
+    float: left;
+}
+
+
+.BUTTON_BOX{
+    margin-left: 37px;
+    margin-top: 375px;
+    width: 525px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: #d6bbdd;
+    float:bottom;
+}
+
+.BUTTON_BOX_HEADER{
+    color: #7e5b86;
+    font-weight: 600;
+    float:left;
+    margin: 27px 0 0 65px;
+}
+
+#HEADER_SELECTED{
+    color: #674a6e;
+    font-weight: 800;
+    text-shadow: 0 0 10px 0 rgb(47, 94, 59);
+    margin-top: 23px;
+}
+
+.MENU_LINK:hover{
+    
+    
+    text-decoration: none;
+    animation-name: hovering;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hovering {
+    from{font-size:18.72px;}
+    to{font-size: 21px;}
+}
+
+.MENU_LINK{
+    text-decoration: none;
+    color:#7e5b86;
+}

@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 .BODY {
-    background-color: #A3E4DB;
+    background-color: #dfd3c3;
     font-family: 'Poppins', sans-serif;
+    /* old #A3E4DB 
+    #e4bba3
+    #fff1bd
+    */
 }
-
-
-.OUTER_BOX{
-    
-}
-
 
 .MAIN_BOX{ 
     position:absolute;
-    width: 600px;
+    width: 1200px;
     height: 1000px;
     border-radius: 25px;
-    background-color: #FFF8F3;
+    background-color: #F0ece3;
+    /* old #FFF8F3 */
     
     top: 10%;
     left: 50%;
-    margin-left: -300px;
-    box-shadow: 0 0 20px 0px #7fc7bd ;
+    margin-left: -600px;
+    box-shadow: 0 0 20px 0px #a59682 ;
 }
 
 .HEADER_NAME{
     
     font-weight: 700;
-    margin: 85px 0 0 65px;
+    margin: 35px 0 0 65px;
     color: #262A3E;   
 }
 
@@ -49,7 +48,7 @@
     width: 525px;
     height: 235px;
     border-radius: 25px;
-    background-color: rgb(209, 209, 224);
+    background-color: #d6bbdd;
 }
 
 .PHARAGRAPH{
@@ -62,8 +61,16 @@
     margin-left: 23px;
     margin-right: 25px;
     float:right;
-    color:#32374e;
+    color:#684174;
 
+}
+
+.NAME_AND_INFO_BOX{
+    float:left;
+    width: 400px;
+    height: 175px;
+    margin-top:50px;
+    
 }
 
 .HEADER_INFO{
@@ -91,24 +98,38 @@
     width: 525px;
     height: 75px;
     border-radius: 25px;
-    background-color: rgb(199, 241, 210);
+    background-color: #d6bbdd;
     float:left;
 }
 
 .BUTTON_BOX_HEADER{
-    color: rgb(70, 131, 85);
+    color: #7e5b86;
     font-weight: 600;
     float:left;
     margin: 24px 0 0 60px;
 }
 
 #HEADER_SELECTED{
-    color: rgb(49, 99, 62);
+    color: #6c4d74;
     font-weight: 800;
     text-shadow: 0 0 10px 0 rgb(47, 94, 59);
 }
 
-#linkedin,#phone,#mail{
-margin: 22px 0 0 30px;
-color:rgb(59, 114, 73);
+.MENU_LINK:hover{
+    
+    font-size: 20px;
+    text-decoration: none;
+    animation-name: hovering;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hovering {
+    from{font-size:18.72px;}
+    to{font-size: 21px;}
+}
+
+.MENU_LINK{
+    text-decoration: none;
+    color:#7e5b86;
 }
